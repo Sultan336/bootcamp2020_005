@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Parent from './Parent.js';
+import CounterContext from './CounterContext';
 
 function App() {
   let countState = useState(1)
@@ -11,6 +12,7 @@ function App() {
       <div>
         <Parent />
       </div>
+    </CounterContext.Provider>
   );
 }
 
