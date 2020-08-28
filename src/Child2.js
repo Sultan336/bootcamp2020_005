@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react';
 import CounterReducer from './CounterReducer';
 
-const Child_2 = () => {
+const Child2 = () => {
     let [state, dispatch] = useReducer(CounterReducer, 10);
     console.log(state)
 
@@ -13,4 +13,4 @@ const Child_2 = () => {
         </div>
     )
 }
-export default Child_2
+export default Child2
